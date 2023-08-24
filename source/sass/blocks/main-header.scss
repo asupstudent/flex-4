@@ -1,0 +1,16 @@
+.main-header {
+  &-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  &-city-list {
+    margin-right: 80px;
+  }
+
+  &-register-button {
+    margin-left: auto;
+    margin-top: 35px;
+  }
+}

@@ -1,0 +1,22 @@
+.city-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 25px;
+  width: 400px;
+
+  &-item {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  &-link {
+    font-size: 14px;
+    line-height: 17px;
+    color: $color-default-white;
+    text-transform: uppercase;
+
+    &--active {
+      color: $color-default-blue;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.audience {
+  padding-bottom: 200px;
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px 50px;
+    justify-content: flex-start;
+  }
+
+  &-item {
+    width: 225px;
+  }
+
+  &-item-category {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $color-default-blue;
+  }
+
+  &-description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

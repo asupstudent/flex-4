@@ -1,0 +1,35 @@
+.promo {
+  padding-top: 60px;
+  padding-bottom: 215px;
+
+  &-wrapper {
+    display: flex;
+    gap: 0 35px;
+  }
+
+  &-raiting-column {
+    width: 565px;
+    margin-left: 55px;
+    margin-top: 300px;
+  }
+
+  &-text-column {
+    width: 570px;
+  }
+
+  &-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: $color-default-white;
+  }
+
+  &-text-compact {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $color-default-white;
+  }
+}

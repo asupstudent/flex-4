@@ -1,0 +1,7 @@
+.page {
+  &-body {
+    background-image: url("../../img/bg.png"), url("../../img/bg-2.png"), url("../../img/bg-3.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+}

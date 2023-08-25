@@ -1,0 +1,38 @@
+.rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  padding: 40px;
+  color: $color-default-blue;
+  border-radius: 50%;
+  background: radial-gradient(68.31% 68.31% at 50% 50%, #f9fbff 0%, #cadef9 100%), $color-default-white;
+  box-shadow: 0 10px 50px rgba(119, 157, 255, 0.3);
+
+  &-highlight-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+    color: $color-default-blue;
+  }
+
+  &-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: $color-default-blue;
+    text-align: center;
+  }
+
+  &-link {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: $color-default-blue;
+  }
+}

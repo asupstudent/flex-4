@@ -1,0 +1,30 @@
+.result {
+  background-image: url("../../img/bg-21.png"), url("../../img/bg-22.png"), url("../../img/bg-23.png");
+  background-repeat: no-repeat;
+  background-position: top 80px left, top 40px left, top left;
+  padding-bottom: 100px;
+
+  &-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 35px 40px;
+  }
+
+  &-item {
+    width: 560px;
+    padding: 45px 50px 50px 150px;
+    background-color: $color-default-white;
+    box-shadow: 0 10px 30px rgba(47, 55, 237, 0.1);
+    border-radius: 10px;
+  }
+
+  &-item-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $color-default-blue;
+  }
+}

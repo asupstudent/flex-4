@@ -3,4 +3,11 @@
   font-size: 30px;
   line-height: 37px;
   color: #000000;
+
+  &-result {
+    margin: 0;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    color: $color-default-white;
+  }
 }

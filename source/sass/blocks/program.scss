@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     gap: 45px 45px;
     width: 600px;
+    margin-bottom: 10px;
   }
 
   &-item {
@@ -32,7 +33,6 @@
     font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
-    text-decoration: underline dashed;
     color: $color-default-blue;
   }
 }

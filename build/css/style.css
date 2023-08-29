@@ -438,7 +438,8 @@ button,
 .audience-list,
 .program-list,
 .result-list,
-.speaker-skills-list {
+.speaker-skills-list,
+.gallery-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -889,6 +890,31 @@ button,
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #2f80ed;
+}
+
+.gallery {
+  padding-bottom: 150px;
+}
+.gallery-title {
+  text-align: center;
+}
+.gallery-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 12px 12px;
+}
+.gallery-item {
+  width: 341px;
+}
+.gallery-item-img {
+  width: 100%;
+  height: auto;
 }
 
 /* @mixin hover-focus {

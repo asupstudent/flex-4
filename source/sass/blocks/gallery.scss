@@ -1,0 +1,23 @@
+.gallery {
+  padding-bottom: 150px;
+
+  &-title {
+    text-align: center;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 12px 12px;
+  }
+
+  &-item {
+    width: 341px;
+  }
+
+  &-item-img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -7,6 +7,10 @@
   &-item {
     padding-top: 40px;
     padding-bottom: 20px;
+
+    &--footer {
+      padding-top: 20px;
+    }
   }
 
   &-link {
@@ -15,8 +19,8 @@
     color: $color-default-white;
     text-transform: uppercase;
 
-    &--active {
-      color: $color-default-blue;
+    &--header {
+      color: $color-default-blue-second;
     }
   }
 }
